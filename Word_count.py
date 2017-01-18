@@ -50,3 +50,5 @@ def words(Text_String):
             j = Text_StringList.index(i)
             Text_StringList.remove('9')
             Text_StringList.insert(j, 9)
+
+	Count_Word_Occurence = [Text_StringList.count(x) for x in Text_StringList]
