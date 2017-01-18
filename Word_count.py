@@ -52,3 +52,5 @@ def words(Text_String):
             Text_StringList.insert(j, 9)
 
 	Count_Word_Occurence = [Text_StringList.count(x) for x in Text_StringList]
+
+	result = dict(zip(Text_StringList, Count_Word_Occurence))
